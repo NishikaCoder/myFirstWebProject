@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Buttons</title>
+</head>
+<style>
+    .box {
+        text-align: center;
+        height: 500px;
+        width: 350px;
+        margin: 50px;
+        border: 1px;
+        border-color: rgb(6, 8, 143);
+        border: solid;
+        border-radius: 1px;
+        margin: 90px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 0px;
+        font-size: 25px;
+        font-family: Arial;
+        padding-left: 27px;
+        font-weight: 400;
+        width: 290px;
+        color: rgb(48, 47, 47);
+        padding-bottom: 20px;
+    }
+
+    button {
+        background-color: white;
+        border-color: rgb(209, 206, 206);
+        height: 40px;
+        width: 270px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        text-align: left;
+        vertical-align: middle;
+        border-style: solid;
+    }
+
+    button:hover {
+        background-color: rgb(198, 195, 195);
+    }
+
+
+    .label {
+        height: 40px;
+        width: 270px;
+        margin-bottom: 15px;
+        border-style: solid;
+        border-color: black;
+        margin-top: 15px;
+    }
+
+    .label:active {
+        border-color: rgb(7, 7, 158);
+    }
+
+    .email {
+        height: 40px;
+        width: 270px;
+        color: black;
+        background-color: rgb(231, 184, 29);
+        border: none;
+        cursor: pointer;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .email:hover {
+        background-color: rgb(210, 165, 20);
+    }
+
+    .ac {
+        font-family: Arial;
+        font-size: small;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+
+    .su {
+        color: blue;
+        cursor: pointer;
+    }
+
+    .img {
+        margin-top: 15px;
+    }
+
+    .hr {
+        width: 80%;
+    }
+
+    .pic {
+        text-align: center;
+        padding-bottom: 3px;
+        margin-bottom: 5px;
+        vertical-align: middle;
+    }
+
+    .image {
+        padding-left: 1px;
+        margin-left: 1px;
+    }
+</style>
+
+<body>
+    <center>
+        <div class="box">
+            <img src="fc.jpg" height="35" width="35" class="img">
+            <h1>Log in to freeCodeCamp Learn</h1>
+            <button><img src="goo.jpg" height="27" width="25" class="pic"><span class="image">Continue with
+                    Google</span></button>
+            <button><img src="git.jpg" height="25" width="25" class="pic"><span class="image">Continue with
+                    GitHub</span></button>
+            <button><img src="appl.jpg" height="24" width="19" class="pic"><span class="image">
+                    Continue with
+                    Apple</span></button>
+            <hr class="hr">
+            <input type="label" class="label" placeholder="Email address*">
+            <button class="email">Continue with Email</button>
+            <p class="ac">Don't have an account yet?<span class="su">Sign up</span></p>
+        </div>
+    </center>
+</body>
+
+</html>
